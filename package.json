@@ -1,0 +1,16 @@
+{
+  "name": "2018-08-23-jsverify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "jsverify": "^0.8.3",
+    "string.prototype.includes": "^1.0.0",
+    "string.prototype.startswith": "^0.2.0"
+  },
+  "scripts": {
+    "build": "browserify -o browser-test.js test.js"
+  }
+}
